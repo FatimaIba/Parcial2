@@ -9,12 +9,9 @@ package poo;
  *
  * @author fatii
  */
-public class POO {
+public class Cliente {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-            }
+    public Cliente() {
+    }
     
 }
