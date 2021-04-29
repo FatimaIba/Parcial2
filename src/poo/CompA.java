@@ -9,6 +9,9 @@ package poo;
  *
  * @author fatii
  */
-class Clientes {
-    
+public interface CompA {
+    public String getcolor();
+    public void setcolor(String color);
+    public String gettamano();
+    public void settamano(String tamano);
 }

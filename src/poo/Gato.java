@@ -9,16 +9,15 @@ package poo;
  *
  * @author fatii
  */
-public class Posicion {
-    private int Numero;
-    private int [] tam;
-    private boolean Num;
+public class Gato extends Felino{
     
-    public Posicion() {
+    @Override
+    public String gettamano() {
+        return tamano;
     }
-    public Posicion( int Numero, int tam[], boolean Num){
-this.Num = Num;
-this.Numero = Numero;
-this.tam = tam;
-} 
+    @Override
+    public String getcolor() {
+        return color; 
+    }
+    
 }

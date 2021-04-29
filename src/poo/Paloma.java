@@ -9,9 +9,15 @@ package poo;
  *
  * @author fatii
  */
-public class Cliente {
-
-    public Cliente() {
+public class Paloma extends Ave {
+    public Paloma() {
     }
-    
+    @Override
+    public String getcolor() {
+        return color;
+    }
+    @Override
+    public String gettamano() {
+        return tamano;
+    }
 }
